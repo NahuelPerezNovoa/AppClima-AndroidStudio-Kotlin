@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".MainActivity">
+
+    <!---app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/tvTemperatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="0º"
+        android:textColor="@color/ColorTemp"
+        android:textSize="100sp" />
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTemperatura"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Buenos Aires"
+        android:textColor="@color/ColorPalabras"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvClima"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_below="@id/tvCiudad"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="334dp"
+        android:text="Nublado"
+        android:textColor="#E1BEE7" />
+
+
+</RelativeLayout>
