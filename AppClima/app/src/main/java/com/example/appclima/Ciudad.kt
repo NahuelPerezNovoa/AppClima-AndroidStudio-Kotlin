@@ -9,7 +9,7 @@ class Ciudad(nombre:String, grados:Int, estatus:String) {
     init {
         this.nombre = nombre
         this.grados = grados
-        this.status = status
+        this.status = estatus
 
     }
 
