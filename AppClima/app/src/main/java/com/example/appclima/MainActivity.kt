@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
 
         if(Network.hayRed(this)){
             //ejecutar solicitud HTTP
-                //key = b76fd52e1dc9bffe8c8d6a2305994644
             solicitudHTTPVolley("https://api.openweathermap.org/data/2.5/weather?id="+ciudad+"&appid=b76fd52e1dc9bffe8c8d6a2305994644&units=metric&lang=es")
         }else{
             //mostrar mensaje
