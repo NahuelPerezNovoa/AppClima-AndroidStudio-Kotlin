@@ -19,7 +19,6 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="46dp"
-        android:text="0º"
         android:textColor="@color/ColorTemp"
         android:textSize="100sp" />
 
@@ -30,7 +29,6 @@
         android:layout_below="@+id/tvTemperatura"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"
-        android:text="Buenos Aires"
         android:textColor="@color/ColorPalabras"
         android:textSize="34sp" />
 
@@ -43,7 +41,6 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="55dp"
         android:layout_marginBottom="334dp"
-        android:text="Nublado"
         android:textColor="#E1BEE7" />
 
 
